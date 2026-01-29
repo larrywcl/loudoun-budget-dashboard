@@ -41,7 +41,7 @@ All data is sourced from official Loudoun County budget documents:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/loudoun-budget-dashboard.git
+git clone https://github.com/larrywcl/loudoun-budget-dashboard.git
 cd loudoun-budget-dashboard
 
 # Install dependencies
@@ -56,9 +56,17 @@ Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
 ### Building for Production
 
 ```bash
+# Build the static site
 npm run build
+
+# Test production build locally
 npm start
 ```
+
+The build process:
+- Generates static pages at build time for fast performance
+- Optimizes images and assets
+- Creates a production-ready `.next` directory
 
 ## Project Structure
 
@@ -94,23 +102,53 @@ Budget data is updated annually when new Adopted Budget documents are published 
 
 ### Vercel (Recommended)
 
-1. Push to GitHub
-2. Connect to Vercel
-3. Deploy automatically
+**One-click deployment:**
+
+1. Push this repo to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Click "Import Project"
+4. Select this repository
+5. Click "Deploy" (Vercel auto-detects Next.js settings)
+
+**Automatic deploys:** Every push to `main` triggers a new deployment.
+
+**Environment:** No environment variables needed for basic deployment.
 
 ### Netlify
 
 1. Push to GitHub
 2. Connect to Netlify
-3. Build command: `npm run build`
-4. Publish directory: `.next`
+3. Configure build settings:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `.next`
+4. Deploy
 
-### Manual
+### Custom Domain
+
+After deploying to Vercel/Netlify:
+
+1. Go to project settings
+2. Add custom domain (e.g., `loudoun.audit.com`)
+3. Update DNS records as instructed
+4. SSL certificate auto-provisioned
+
+### Manual Deployment
+
+If self-hosting:
 
 ```bash
+# Build for production
 npm run build
-# Deploy .next directory to your hosting provider
+
+# Start production server
+npm start
+# Or deploy .next directory to Node.js hosting
 ```
+
+**Server requirements:**
+- Node.js 18+
+- Port 3000 (or configure with `PORT` env var)
+- Persistent file system for static assets
 
 ## Contributing
 
