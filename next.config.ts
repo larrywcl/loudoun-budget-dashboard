@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/loudoun-budget-dashboard',
+  // No basePath needed when deployed at root of loudoun-budget-dashboard.github.io
   images: {
     unoptimized: true,
   },
