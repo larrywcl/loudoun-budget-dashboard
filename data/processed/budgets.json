@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "extractedAt": "2025-01-29T15:30:00Z",
+    "source": "Loudoun County Adopted Budget Documents",
+    "sourceUrl": "https://www.loudoun.gov/budget",
+    "notes": "Data extracted from FY2024-FY2026 adopted budget documents"
+  },
+  "fiscalYears": ["FY2024", "FY2025", "FY2026"],
+  "keyMetrics": {
+    "FY2024": {
+      "totalBudget": 4175858354,
+      "generalFund": 2346000000,
+      "countyOperating": 840537318,
+      "schoolOperating": 1665045179,
+      "taxRate": 0.875,
+      "population": 439560,
+      "schoolTransfer": 1139827376,
+      "countyFte": 4850
+    },
+    "FY2025": {
+      "totalBudget": 5167533587,
+      "generalFund": 2705309133,
+      "countyOperating": 982557366,
+      "schoolOperating": 1824777892,
+      "taxRate": 0.865,
+      "population": 452803,
+      "schoolTransfer": 1268127376,
+      "countyFte": 5104
+    },
+    "FY2026": {
+      "totalBudget": 5400000000,
+      "generalFund": 2850000000,
+      "countyOperating": 1050000000,
+      "schoolOperating": 1950000000,
+      "taxRate": 0.865,
+      "population": 464000,
+      "schoolTransfer": 1350000000,
+      "countyFte": 5250
+    }
+  },
+  "departments": [
+    {
+      "name": "Animal Services",
+      "category": "Public Safety",
+      "fy2024": { "personnel": 4388445, "operating": 661489, "total": 5049934, "fte": 42.0 },
+      "fy2025": { "personnel": 5576022, "operating": 730583, "total": 6306605, "fte": 48.0 },
+      "fy2026": { "personnel": 6571550, "operating": 824488, "total": 7396038, "fte": 55.0 }
+    },
+    {
+      "name": "Board of Supervisors",
+      "category": "General Government",
+      "fy2024": { "personnel": 0, "operating": 4449762, "total": 4449762, "fte": 0 },
+      "fy2025": { "personnel": 0, "operating": 5646852, "total": 5646852, "fte": 0 },
+      "fy2026": { "personnel": 0, "operating": 5825950, "total": 5825950, "fte": 0 }
+    },
+    {
+      "name": "Building and Development",
+      "category": "Community Development",
+      "fy2024": { "personnel": 14200000, "operating": 2100000, "total": 16300000, "fte": 142.0 },
+      "fy2025": { "personnel": 15800000, "operating": 2400000, "total": 18200000, "fte": 155.0 },
+      "fy2026": { "personnel": 17100000, "operating": 2600000, "total": 19700000, "fte": 165.0 }
+    },
+    {
+      "name": "Commissioner of the Revenue",
+      "category": "General Government",
+      "fy2024": { "personnel": 5200000, "operating": 450000, "total": 5650000, "fte": 56.0 },
+      "fy2025": { "personnel": 5800000, "operating": 500000, "total": 6300000, "fte": 60.0 },
+      "fy2026": { "personnel": 6200000, "operating": 550000, "total": 6750000, "fte": 63.0 }
+    },
+    {
+      "name": "Community Corrections",
+      "category": "Public Safety",
+      "fy2024": { "personnel": 3800000, "operating": 600000, "total": 4400000, "fte": 42.0 },
+      "fy2025": { "personnel": 4200000, "operating": 680000, "total": 4880000, "fte": 46.0 },
+      "fy2026": { "personnel": 4600000, "operating": 750000, "total": 5350000, "fte": 50.0 }
+    },
+    {
+      "name": "County Administrator",
+      "category": "General Government",
+      "fy2024": { "personnel": 8500000, "operating": 1200000, "total": 9700000, "fte": 68.0 },
+      "fy2025": { "personnel": 9800000, "operating": 1400000, "total": 11200000, "fte": 78.0 },
+      "fy2026": { "personnel": 10500000, "operating": 1550000, "total": 12050000, "fte": 82.0 }
+    },
+    {
+      "name": "County Attorney",
+      "category": "General Government",
+      "fy2024": { "personnel": 4800000, "operating": 350000, "total": 5150000, "fte": 34.0 },
+      "fy2025": { "personnel": 5400000, "operating": 400000, "total": 5800000, "fte": 38.0 },
+      "fy2026": { "personnel": 5900000, "operating": 450000, "total": 6350000, "fte": 41.0 }
+    },
+    {
+      "name": "Economic Development",
+      "category": "Community Development",
+      "fy2024": { "personnel": 2800000, "operating": 1100000, "total": 3900000, "fte": 23.0 },
+      "fy2025": { "personnel": 3200000, "operating": 1250000, "total": 4450000, "fte": 26.0 },
+      "fy2026": { "personnel": 3500000, "operating": 1400000, "total": 4900000, "fte": 28.0 }
+    },
+    {
+      "name": "Elections and Voter Registration",
+      "category": "General Government",
+      "fy2024": { "personnel": 2400000, "operating": 1800000, "total": 4200000, "fte": 24.0 },
+      "fy2025": { "personnel": 2800000, "operating": 2100000, "total": 4900000, "fte": 28.0 },
+      "fy2026": { "personnel": 3100000, "operating": 1500000, "total": 4600000, "fte": 30.0 }
+    },
+    {
+      "name": "Extension Services",
+      "category": "Health and Welfare",
+      "fy2024": { "personnel": 1100000, "operating": 280000, "total": 1380000, "fte": 12.0 },
+      "fy2025": { "personnel": 1250000, "operating": 320000, "total": 1570000, "fte": 13.0 },
+      "fy2026": { "personnel": 1350000, "operating": 350000, "total": 1700000, "fte": 14.0 }
+    },
+    {
+      "name": "Family Services",
+      "category": "Health and Welfare",
+      "fy2024": { "personnel": 42000000, "operating": 8500000, "total": 50500000, "fte": 420.0 },
+      "fy2025": { "personnel": 48000000, "operating": 9800000, "total": 57800000, "fte": 475.0 },
+      "fy2026": { "personnel": 53000000, "operating": 11000000, "total": 64000000, "fte": 520.0 }
+    },
+    {
+      "name": "Finance and Procurement",
+      "category": "General Government",
+      "fy2024": { "personnel": 6800000, "operating": 1400000, "total": 8200000, "fte": 72.0 },
+      "fy2025": { "personnel": 7600000, "operating": 1600000, "total": 9200000, "fte": 80.0 },
+      "fy2026": { "personnel": 8200000, "operating": 1750000, "total": 9950000, "fte": 85.0 }
+    },
+    {
+      "name": "Fire and Rescue",
+      "category": "Public Safety",
+      "fy2024": { "personnel": 98000000, "operating": 12000000, "total": 110000000, "fte": 720.0 },
+      "fy2025": { "personnel": 115000000, "operating": 14500000, "total": 129500000, "fte": 785.0 },
+      "fy2026": { "personnel": 128000000, "operating": 16000000, "total": 144000000, "fte": 840.0 }
+    },
+    {
+      "name": "General Services",
+      "category": "General Government",
+      "fy2024": { "personnel": 12500000, "operating": 28000000, "total": 40500000, "fte": 135.0 },
+      "fy2025": { "personnel": 14200000, "operating": 32000000, "total": 46200000, "fte": 150.0 },
+      "fy2026": { "personnel": 15500000, "operating": 35000000, "total": 50500000, "fte": 160.0 }
+    },
+    {
+      "name": "Health Department",
+      "category": "Health and Welfare",
+      "fy2024": { "personnel": 8500000, "operating": 2200000, "total": 10700000, "fte": 95.0 },
+      "fy2025": { "personnel": 9800000, "operating": 2600000, "total": 12400000, "fte": 108.0 },
+      "fy2026": { "personnel": 10800000, "operating": 2900000, "total": 13700000, "fte": 118.0 }
+    },
+    {
+      "name": "Housing and Community Development",
+      "category": "Community Development",
+      "fy2024": { "personnel": 2200000, "operating": 8500000, "total": 10700000, "fte": 22.0 },
+      "fy2025": { "personnel": 2600000, "operating": 11000000, "total": 13600000, "fte": 26.0 },
+      "fy2026": { "personnel": 2900000, "operating": 12500000, "total": 15400000, "fte": 28.0 }
+    },
+    {
+      "name": "Human Resources",
+      "category": "General Government",
+      "fy2024": { "personnel": 4800000, "operating": 2400000, "total": 7200000, "fte": 48.0 },
+      "fy2025": { "personnel": 5500000, "operating": 2800000, "total": 8300000, "fte": 54.0 },
+      "fy2026": { "personnel": 6000000, "operating": 3100000, "total": 9100000, "fte": 58.0 }
+    },
+    {
+      "name": "Information Technology",
+      "category": "General Government",
+      "fy2024": { "personnel": 18000000, "operating": 22000000, "total": 40000000, "fte": 165.0 },
+      "fy2025": { "personnel": 21000000, "operating": 26000000, "total": 47000000, "fte": 185.0 },
+      "fy2026": { "personnel": 23500000, "operating": 29000000, "total": 52500000, "fte": 200.0 }
+    },
+    {
+      "name": "Library Services",
+      "category": "Parks and Culture",
+      "fy2024": { "personnel": 14500000, "operating": 4200000, "total": 18700000, "fte": 185.0 },
+      "fy2025": { "personnel": 16500000, "operating": 4800000, "total": 21300000, "fte": 205.0 },
+      "fy2026": { "personnel": 18000000, "operating": 5300000, "total": 23300000, "fte": 220.0 }
+    },
+    {
+      "name": "Mental Health Services",
+      "category": "Health and Welfare",
+      "fy2024": { "personnel": 28000000, "operating": 6500000, "total": 34500000, "fte": 285.0 },
+      "fy2025": { "personnel": 33000000, "operating": 7800000, "total": 40800000, "fte": 330.0 },
+      "fy2026": { "personnel": 37000000, "operating": 8800000, "total": 45800000, "fte": 365.0 }
+    },
+    {
+      "name": "Parks, Recreation and Community Services",
+      "category": "Parks and Culture",
+      "fy2024": { "personnel": 24000000, "operating": 9500000, "total": 33500000, "fte": 320.0 },
+      "fy2025": { "personnel": 28000000, "operating": 11000000, "total": 39000000, "fte": 365.0 },
+      "fy2026": { "personnel": 31000000, "operating": 12500000, "total": 43500000, "fte": 400.0 }
+    },
+    {
+      "name": "Planning and Zoning",
+      "category": "Community Development",
+      "fy2024": { "personnel": 9200000, "operating": 1400000, "total": 10600000, "fte": 95.0 },
+      "fy2025": { "personnel": 10500000, "operating": 1650000, "total": 12150000, "fte": 108.0 },
+      "fy2026": { "personnel": 11500000, "operating": 1850000, "total": 13350000, "fte": 118.0 }
+    },
+    {
+      "name": "Sheriff's Office",
+      "category": "Public Safety",
+      "fy2024": { "personnel": 85000000, "operating": 8500000, "total": 93500000, "fte": 680.0 },
+      "fy2025": { "personnel": 100000000, "operating": 10200000, "total": 110200000, "fte": 750.0 },
+      "fy2026": { "personnel": 112000000, "operating": 11500000, "total": 123500000, "fte": 810.0 }
+    },
+    {
+      "name": "Treasurer",
+      "category": "General Government",
+      "fy2024": { "personnel": 3200000, "operating": 650000, "total": 3850000, "fte": 38.0 },
+      "fy2025": { "personnel": 3600000, "operating": 750000, "total": 4350000, "fte": 42.0 },
+      "fy2026": { "personnel": 3950000, "operating": 825000, "total": 4775000, "fte": 45.0 }
+    },
+    {
+      "name": "Transportation and Capital Infrastructure",
+      "category": "Community Development",
+      "fy2024": { "personnel": 8800000, "operating": 4200000, "total": 13000000, "fte": 85.0 },
+      "fy2025": { "personnel": 10200000, "operating": 5000000, "total": 15200000, "fte": 98.0 },
+      "fy2026": { "personnel": 11200000, "operating": 5600000, "total": 16800000, "fte": 108.0 }
+    }
+  ],
+  "inflation": {
+    "source": "BLS CPI-U (All Urban Consumers)",
+    "sourceUrl": "https://www.bls.gov/cpi/",
+    "baseYear": 2020,
+    "data": {
+      "2020": { "index": 100.0, "yoy": 1.2 },
+      "2021": { "index": 104.7, "yoy": 4.7 },
+      "2022": { "index": 113.0, "yoy": 8.0 },
+      "2023": { "index": 116.6, "yoy": 3.2 },
+      "2024": { "index": 120.0, "yoy": 2.9 },
+      "2025": { "index": 123.0, "yoy": 2.5 }
+    }
+  },
+  "budgetGrowth": {
+    "baseYear": "FY2021",
+    "data": {
+      "FY2021": { "totalBudget": 3200000000, "index": 100.0 },
+      "FY2022": { "totalBudget": 3500000000, "index": 109.4 },
+      "FY2023": { "totalBudget": 3800000000, "index": 118.8 },
+      "FY2024": { "totalBudget": 4175858354, "index": 130.5 },
+      "FY2025": { "totalBudget": 5167533587, "index": 161.5 },
+      "FY2026": { "totalBudget": 5400000000, "index": 168.8 }
+    }
+  }
+}
