@@ -2,7 +2,7 @@
 
 A transparency dashboard for Loudoun County, Virginia government spending and fiscal data.
 
-🔗 **Live Demo:** [Coming Soon]
+🔗 **Live Demo:** [https://larrywcl.github.io/loudoun-budget-dashboard/](https://larrywcl.github.io/loudoun-budget-dashboard/)
 
 ## Features
 
